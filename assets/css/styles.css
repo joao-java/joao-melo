@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 210; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 215; /*Purple 215 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -112,13 +112,6 @@ h1, h2, h3, h4{
     font-weight: var(--font-semi-bold);
 }
 
-ul{
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-}
 img{
     max-width: 100%;
     height: auto;
@@ -184,7 +177,7 @@ img{
 }
 
 .nav__toggle{
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
@@ -231,7 +224,7 @@ img{
     position: absolute;
     right: 1.3rem;
     bottom: .5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     cursor: pointer;
     color: var(--first-color);
 }
