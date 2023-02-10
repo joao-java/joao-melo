@@ -93,7 +93,7 @@ modalCloses.forEach((modalClose)=>{
 })
 
 /*==================== PORTFOLIO SWIPER  ====================*/
-let swiper = new Swiper('.portfolio__container', {
+let swiperPortifolio = new Swiper('.portfolio__container', {
     cssMode:true,
     navigation: {
         nextEl: '.swiper-button-next',
@@ -106,7 +106,22 @@ let swiper = new Swiper('.portfolio__container', {
 });
 
 /*==================== TESTIMONIAL ====================*/
+let swiperTestimonial = new Swiper('.testimonial__container', {
+    loop: true,
+    grabCursor: true,
+    spaceBetween: 48,
 
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: true,
+    },
+    breakpoints:{
+        568:{
+            slidesPerView: 2,
+        }
+    }
+});
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 
@@ -118,3 +133,8 @@ let swiper = new Swiper('.portfolio__container', {
 
 
 /*==================== DARK LIGHT THEME ====================*/ 
+
+/*==================== DETALHES  ====================*/ 
+function here(text){
+    alert("Me desculpe não tenho o link do "+text);
+};
